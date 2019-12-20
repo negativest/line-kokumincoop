@@ -86,7 +86,7 @@ const onText = (instance, event) => {
     message: 'こちらの情報はお役にたちますか？\nhttps://help.salesforce.com/articleView?id=user_password.htm&language=ja&type=0'
   }, {
     key: /.*電話.*/,
-    message: 'お問い合わせ内容は何ですか？\n'
+    message: 'お問い合わせ内容は何ですか？\nそれぞれ電話番号をお知らせできます'
   }, {
     key: /./,
     message: ''
